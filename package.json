@@ -1,0 +1,20 @@
+{
+  "name": "zilliqa-vanity-generator",
+  "version": "1.0.0",
+  "description": "Generate A Vanity Wallet Address For The Zilliqa Blockchain",
+  "main": "search.js",
+  "keywords": [
+    "Zilliqa",
+    "ZIL",
+    "Vanity Address",
+    "Crypto",
+    "Cryptocurrency"
+  ],
+  "author": "mcbeav",
+  "license": "MIT",
+  "dependencies": {
+    "@zilliqa-js/zilliqa": "^3.3.4",
+    "colors": "^1.4.0",
+    "minimist": "^1.2.6"
+  }
+}
