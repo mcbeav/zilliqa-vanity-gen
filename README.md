@@ -122,7 +122,7 @@ Node.js is the only requirement for running the script. Download and install Nod
 
         node search.js --address fish --position start --hide true
 
-##Output
+## Output
 - When a match is found the Zilliqa formatted address and the private key will be displayed in the console
 
 > **Example Output When A Match Is Found**
