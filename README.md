@@ -62,7 +62,7 @@ Node.js is the only requirement for running the script. Download and install Nod
 
 ## Options
 
-###address 
+### address 
 - Your desired vanity address to search for.
 	- This is required for the script to run
 
@@ -78,7 +78,7 @@ Node.js is the only requirement for running the script. Download and install Nod
 
 	    zil1fish8kz6ya8c3y2qdzza6pve5fwtuq8nfy8c99
 			
-###position
+### position
 - Specifies if the address search should match the start of the address, the end of the address, or anywhere in the address.
     - **start**
         - searches the start of the address
@@ -95,7 +95,7 @@ Node.js is the only requirement for running the script. Download and install Nod
 	    node search.js --address fish --position end
 	
 	
-###threads
+### threads
 - Sets the number of threads to use when searching for an address.
 - The script will spawn new processes using workers to increase performance
     - Unless specified, the script will only spawn a single worker
@@ -108,7 +108,7 @@ Node.js is the only requirement for running the script. Download and install Nod
 
 	    node search.js --address fish --position any --threads 8
 
-###hide
+### hide
 - When a match is found it is logged to the console. If you wish to hide the output in the console and write the data to a JSON file the hide parameter can be used.
 - Setting hide to true will hide the console output when a match is found and the address, public key, private key, and hex encoded address will be written to a JSON file in the root of the project directory
 
